@@ -1,0 +1,38 @@
+---
+layout: post
+title: backbone.js beginners and underscore.js micro templating
+---
+
+h2. backbone.js beginners and underscore.js micro templating
+
+p. Surprisingly I have received many request via the "poplytics.com":http://poplytics.com popup at the bottom of the window.   A lot of the request have asked for more backbone tutorials.  So I decided to share more of what I have learnt so far.
+
+	I decided to comment the code this time instead of a normal tutorial layout and hopefully my comments will be sufficient to help you.
+
+h2. "Demo":http://thomasdavis.github.com/examples/backbone-underscore/
+	"Source":https://github.com/thomasdavis/thomasdavis.github.com/tree/master/examples/backbone-underscore
+
+p. Please leave comments for anything I am doing wrong =D
+
+h3. underscore micro templating
+
+p. In the latest startup I have been working on, we decided to just use underscore.js templating as we reviewed "benchmarks":"http://www.viget.com/extend/benchmarking-javascript-templating-libraries/ of the different templating engines and none of them could really be crowned king.   Since then I have just learnt to use underscore.js micro templating engine as it works fine for us.
+
+We place all our javascript templates which is basically 99% of our web app into an external file and host it on Amazon  CDN.   So our entire app is cached and distrubuted through "edge locations":http://en.wikipedia.org/wiki/Content_delivery_network which increases the speed the site is served and also saves us money on bandwidth.
+		 
+h3. passing parent objects to deferred objects
+
+p. in the example I needed to access the parent object which contains a $.then and $.when. To get the parent object (this) into
+		the anonymous $.when function I simply used jQuery.proxy(func, this).  Has anyone else been experimenting with this and is there
+		an easier way to do it?
+
+
+
+<script>
+var idcomments_acct = 'e6c0e0096f8106ea52c674a85b26ecf9';
+var idcomments_post_id = "sexylady";
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+</div>
