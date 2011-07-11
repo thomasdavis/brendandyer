@@ -1,0 +1,9 @@
+---
+layout: default
+title: Brendan Dyer
+---
+
+p. Some work in progress aphorisms
+
+* Two cowards: One who, for fear of the truth, lies. One who, for fear of lying, never speaks.
+
