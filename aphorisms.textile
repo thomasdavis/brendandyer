@@ -5,6 +5,7 @@ title: Brendan Dyer
 
 p. Some work in progress aphorisms
 
+* Rivalry is the romance of friendship.
 * Two cowards: One who, for fear of the truth, lies. One who, for fear of lying, never speaks.
 * Woman’s Love is equalled only by Man’s Lust
 * Only a fraud finds more friends than foes. 
@@ -12,7 +13,7 @@ p. Some work in progress aphorisms
 * A man respects in others what he admires in himself - and envies in others their attainment of his ideal. 
 * A man exiled from sociability will come to believe it self-imposed.
 * Each perspective believes itself the Absolute Truth 
-* Rivalry is the romance of friendship.
+
 
 <script>
 var idcomments_acct = 'e6c0e0096f8106ea52c674a85b26ecf9';
